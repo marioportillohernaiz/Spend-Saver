@@ -12,11 +12,13 @@
 <h2>Home / Overall Data Screens</h2>
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/7853b2a7-7d3c-45cd-90ec-e751ccbcf387">
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/c55faf6e-e080-4233-82b4-f1b45c3890c4">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <h2>Adding Shop / Creating Shop Type Screens</h2>
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/26f6c7d8-84f2-42db-a806-e10542d9c66e">
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/728d391f-5ea5-45d7-9754-a7f013ca9fcd">
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/283f5916-004f-409a-b350-0e44423fedec">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <h2>Account Screen</h2>
 <img style="width: 200px; height: auto" align="left" src="https://github.com/marioportillohernaiz/Spend-Saver/assets/111706273/d1089537-249b-4a71-9ce9-075920b06f0d">
