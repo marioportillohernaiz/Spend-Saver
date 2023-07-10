@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "920673403324",
+    "firebase_url": "https://spendsaver-c490c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "spendsaver-c490c",
+    "storage_bucket": "spendsaver-c490c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920673403324:android:9d1010ed5ce1e5e02eebb9",
+        "android_client_info": {
+          "package_name": "com.example.f118326spendsaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920673403324-89eeqatpg1ocm3fm6j9o5q6fqhk5hr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWKLiFxZG_BA66jtwoEHW0Ri7XXqe-A3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920673403324-89eeqatpg1ocm3fm6j9o5q6fqhk5hr62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

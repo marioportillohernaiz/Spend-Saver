@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spendsaver.HomePage">
+
+    <FrameLayout
+        android:id="@+id/homeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/listFrame"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pieFrame"
+                app:layout_constraintVertical_bias="0.882">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/listContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </ScrollView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pieFrame"
+                android:layout_width="0dp"
+                android:layout_height="276dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/homePieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Expenses list:"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/listFrame"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/homeTotaltxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Total: £"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/listFrame"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.813"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Monthly Chart:"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/pieFrame"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/calendarbtn"
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="35dp"
+                android:paddingLeft="8dp"
+                app:icon="@drawable/ic_baseline_calendar_month_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.924"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/databtn"
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="35dp"
+                android:paddingLeft="8dp"
+                app:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                app:layout_constraintEnd_toStartOf="@+id/calendarbtn"
+                app:layout_constraintStart_toEndOf="@+id/homeinfobtn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/homeinfobtn"
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="35dp"
+                android:paddingLeft="8dp"
+                app:icon="@drawable/ic_baseline_info_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.614"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navmenu"
+        app:itemTextAppearanceActive="@style/navTextActive"
+        app:itemTextAppearanceInactive="@style/navTextInactive"/>
+<!--    app:itemIconTint="@color/black"-->
+<!--    app:itemTextColor="@color/black"-->
+</androidx.constraintlayout.widget.ConstraintLayout>

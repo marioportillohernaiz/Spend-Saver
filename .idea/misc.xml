@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_account_page.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_add_page.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_home_page.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_loading_screen.xml" value="0.1796875" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_log_in_page.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/layout/activity_sign_in_page.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver old/app/src/main/res/menu/navmenu.xml" value="0.1796875" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/drawable/inputtxt_border.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout-land/activity_account_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout-land/activity_add_page.xml" value="0.5" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout-land/activity_home_page.xml" value="0.45351867940920937" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout-land/activity_overall_data.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/ActivityMainBinding.xml" value="0.1" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_account_page.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_add_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_data_page.xml" value="0.22" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_home_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_loading_sc.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_loading_screen.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_log_in_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_overall_data.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_sign_in_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/activity_user_guide.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/datagroup.xml" value="0.1796875" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/datalist.xml" value="0.5" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/datarow.xml" value="0.5" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/fragment_accountpg.xml" value="0.2989583333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/fragment_addpg.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/fragment_homepg.xml" value="0.22" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/layout/inputtxt_border.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/menu/navmenu.xml" value="0.22" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/menu/share_action_provider.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/xml/datarow.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/xml/input_border.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/porti/AndroidStudioProjects/F118326SpendSaver/app/src/main/res/xml/inputtxt_border.xml" value="0.3880208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

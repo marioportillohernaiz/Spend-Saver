@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+<!--        <Spinner-->
+<!--            android:id="@+id/textout"-->
+<!--            android:layout_width="204dp"-->
+<!--            android:layout_height="40dp"-->
+
+<!--            android:layout_marginEnd="6dp"-->
+<!--            android:layout_marginBottom="7dp"-->
+
+<!--            android:background="@drawable/inputtxt_border"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:inputType="none"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:prompt = "@string/app_name"/>-->
+<!--        android:layout_alignParentLeft="true"
+android:layout_toLeftOf="@id/remove"-->
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="17dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/textout"
+            android:layout_width="184dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/inputtxt_border"
+            android:gravity="center_vertical"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/textout2"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/inputtxt_border"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/textout3"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/inputtxt_border"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="£"
+            android:inputType="numberDecimal"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/remove"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="6dp"
+            app:icon="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--        <com.google.android.material.textfield.TextInputLayout-->
+    <!--            android:layout_width="204dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_alignParentLeft="true"-->
+    <!--            android:layout_marginEnd="6dp"-->
+    <!--            android:layout_marginBottom="7dp"-->
+    <!--            android:layout_toLeftOf="@id/remove"-->
+    <!--            >-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
+    <!--        </com.google.android.material.textfield.TextInputLayout>-->
